@@ -19,9 +19,6 @@ void	print_line(int x, int *y, char border, char middle)
 
 void	print_rush(int x, int *y)
 {
-	int	i;
-
-	i = 0;
 	print_line(x, y, 'o', '-');
 	while (*y > 1)
 		print_line(x, y, '|', ' ');
